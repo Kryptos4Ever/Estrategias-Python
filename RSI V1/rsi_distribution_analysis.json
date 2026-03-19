@@ -1,0 +1,495 @@
+{
+  "config": {
+    "rsi_length": 14,
+    "db_path": "btc_hourly.db",
+    "fecha_inicio": "2021-11-10",
+    "fecha_fin": "2025-10-06",
+    "total_velas": 34224
+  },
+  "zona_compra": {
+    "label": "RSI(low)",
+    "zona": "compra",
+    "umbral_referencia": 30,
+    "total_velas_rsi": 34210,
+    "velas_en_zona": 1697,
+    "frecuencia_pct": 4.9605,
+    "media": 24.9538,
+    "mediana": 25.9813,
+    "moda": 29.0,
+    "desvio_std": 4.1589,
+    "minimo": 6.4604,
+    "maximo": 29.994,
+    "p05": 16.5755,
+    "p10": 19.0758,
+    "p25": 22.8022,
+    "p50": 25.9813,
+    "p75": 28.2086,
+    "p90": 29.3587,
+    "p95": 29.6726
+  },
+  "zona_venta": {
+    "label": "RSI(high)",
+    "zona": "venta",
+    "umbral_referencia": 70,
+    "total_velas_rsi": 34210,
+    "velas_en_zona": 2311,
+    "frecuencia_pct": 6.7553,
+    "media": 75.735,
+    "mediana": 74.6236,
+    "moda": 70.5,
+    "desvio_std": 4.5093,
+    "minimo": 70.0003,
+    "maximo": 92.0553,
+    "p05": 70.4021,
+    "p10": 70.7331,
+    "p25": 71.9976,
+    "p50": 74.6236,
+    "p75": 78.6551,
+    "p90": 82.1608,
+    "p95": 84.4426
+  },
+  "frecuencia_por_nivel_low": {
+    "0.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "1.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "2.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "3.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "4.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "5.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "6.0": {
+      "conteo": 1,
+      "pct_total": 0.0029
+    },
+    "7.0": {
+      "conteo": 2,
+      "pct_total": 0.0058
+    },
+    "8.0": {
+      "conteo": 1,
+      "pct_total": 0.0029
+    },
+    "9.0": {
+      "conteo": 4,
+      "pct_total": 0.0117
+    },
+    "10.0": {
+      "conteo": 2,
+      "pct_total": 0.0058
+    },
+    "11.0": {
+      "conteo": 2,
+      "pct_total": 0.0058
+    },
+    "12.0": {
+      "conteo": 8,
+      "pct_total": 0.0234
+    },
+    "13.0": {
+      "conteo": 15,
+      "pct_total": 0.0438
+    },
+    "14.0": {
+      "conteo": 18,
+      "pct_total": 0.0526
+    },
+    "15.0": {
+      "conteo": 21,
+      "pct_total": 0.0614
+    },
+    "16.0": {
+      "conteo": 21,
+      "pct_total": 0.0614
+    },
+    "17.0": {
+      "conteo": 36,
+      "pct_total": 0.1052
+    },
+    "18.0": {
+      "conteo": 35,
+      "pct_total": 0.1023
+    },
+    "19.0": {
+      "conteo": 53,
+      "pct_total": 0.1549
+    },
+    "20.0": {
+      "conteo": 68,
+      "pct_total": 0.1988
+    },
+    "21.0": {
+      "conteo": 66,
+      "pct_total": 0.1929
+    },
+    "22.0": {
+      "conteo": 93,
+      "pct_total": 0.2719
+    },
+    "23.0": {
+      "conteo": 112,
+      "pct_total": 0.3274
+    },
+    "24.0": {
+      "conteo": 143,
+      "pct_total": 0.418
+    },
+    "25.0": {
+      "conteo": 149,
+      "pct_total": 0.4355
+    },
+    "26.0": {
+      "conteo": 185,
+      "pct_total": 0.5408
+    },
+    "27.0": {
+      "conteo": 202,
+      "pct_total": 0.5905
+    },
+    "28.0": {
+      "conteo": 201,
+      "pct_total": 0.5875
+    },
+    "29.0": {
+      "conteo": 259,
+      "pct_total": 0.7571
+    },
+    "30.0": {
+      "conteo": 272,
+      "pct_total": 0.7951
+    },
+    "31.0": {
+      "conteo": 292,
+      "pct_total": 0.8536
+    },
+    "32.0": {
+      "conteo": 379,
+      "pct_total": 1.1079
+    },
+    "33.0": {
+      "conteo": 421,
+      "pct_total": 1.2306
+    },
+    "34.0": {
+      "conteo": 399,
+      "pct_total": 1.1663
+    },
+    "35.0": {
+      "conteo": 496,
+      "pct_total": 1.4499
+    },
+    "36.0": {
+      "conteo": 515,
+      "pct_total": 1.5054
+    },
+    "37.0": {
+      "conteo": 575,
+      "pct_total": 1.6808
+    },
+    "38.0": {
+      "conteo": 592,
+      "pct_total": 1.7305
+    },
+    "39.0": {
+      "conteo": 629,
+      "pct_total": 1.8386
+    },
+    "40.0": {
+      "conteo": 768,
+      "pct_total": 2.245
+    },
+    "41.0": {
+      "conteo": 760,
+      "pct_total": 2.2216
+    },
+    "42.0": {
+      "conteo": 840,
+      "pct_total": 2.4554
+    },
+    "43.0": {
+      "conteo": 906,
+      "pct_total": 2.6483
+    },
+    "44.0": {
+      "conteo": 921,
+      "pct_total": 2.6922
+    },
+    "45.0": {
+      "conteo": 1026,
+      "pct_total": 2.9991
+    },
+    "46.0": {
+      "conteo": 1009,
+      "pct_total": 2.9494
+    },
+    "47.0": {
+      "conteo": 1113,
+      "pct_total": 3.2534
+    },
+    "48.0": {
+      "conteo": 1121,
+      "pct_total": 3.2768
+    },
+    "49.0": {
+      "conteo": 1110,
+      "pct_total": 3.2447
+    },
+    "50.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    }
+  },
+  "frecuencia_por_nivel_high": {
+    "50.0": {
+      "conteo": 1105,
+      "pct_total": 3.23
+    },
+    "51.0": {
+      "conteo": 1058,
+      "pct_total": 3.0927
+    },
+    "52.0": {
+      "conteo": 1100,
+      "pct_total": 3.2154
+    },
+    "53.0": {
+      "conteo": 967,
+      "pct_total": 2.8267
+    },
+    "54.0": {
+      "conteo": 992,
+      "pct_total": 2.8997
+    },
+    "55.0": {
+      "conteo": 933,
+      "pct_total": 2.7273
+    },
+    "56.0": {
+      "conteo": 947,
+      "pct_total": 2.7682
+    },
+    "57.0": {
+      "conteo": 896,
+      "pct_total": 2.6191
+    },
+    "58.0": {
+      "conteo": 829,
+      "pct_total": 2.4233
+    },
+    "59.0": {
+      "conteo": 777,
+      "pct_total": 2.2713
+    },
+    "60.0": {
+      "conteo": 698,
+      "pct_total": 2.0403
+    },
+    "61.0": {
+      "conteo": 633,
+      "pct_total": 1.8503
+    },
+    "62.0": {
+      "conteo": 638,
+      "pct_total": 1.865
+    },
+    "63.0": {
+      "conteo": 547,
+      "pct_total": 1.5989
+    },
+    "64.0": {
+      "conteo": 509,
+      "pct_total": 1.4879
+    },
+    "65.0": {
+      "conteo": 465,
+      "pct_total": 1.3593
+    },
+    "66.0": {
+      "conteo": 412,
+      "pct_total": 1.2043
+    },
+    "67.0": {
+      "conteo": 410,
+      "pct_total": 1.1985
+    },
+    "68.0": {
+      "conteo": 368,
+      "pct_total": 1.0757
+    },
+    "69.0": {
+      "conteo": 309,
+      "pct_total": 0.9032
+    },
+    "70.0": {
+      "conteo": 308,
+      "pct_total": 0.9003
+    },
+    "71.0": {
+      "conteo": 271,
+      "pct_total": 0.7922
+    },
+    "72.0": {
+      "conteo": 232,
+      "pct_total": 0.6782
+    },
+    "73.0": {
+      "conteo": 210,
+      "pct_total": 0.6139
+    },
+    "74.0": {
+      "conteo": 198,
+      "pct_total": 0.5788
+    },
+    "75.0": {
+      "conteo": 153,
+      "pct_total": 0.4472
+    },
+    "76.0": {
+      "conteo": 153,
+      "pct_total": 0.4472
+    },
+    "77.0": {
+      "conteo": 123,
+      "pct_total": 0.3595
+    },
+    "78.0": {
+      "conteo": 126,
+      "pct_total": 0.3683
+    },
+    "79.0": {
+      "conteo": 103,
+      "pct_total": 0.3011
+    },
+    "80.0": {
+      "conteo": 103,
+      "pct_total": 0.3011
+    },
+    "81.0": {
+      "conteo": 83,
+      "pct_total": 0.2426
+    },
+    "82.0": {
+      "conteo": 72,
+      "pct_total": 0.2105
+    },
+    "83.0": {
+      "conteo": 42,
+      "pct_total": 0.1228
+    },
+    "84.0": {
+      "conteo": 35,
+      "pct_total": 0.1023
+    },
+    "85.0": {
+      "conteo": 31,
+      "pct_total": 0.0906
+    },
+    "86.0": {
+      "conteo": 24,
+      "pct_total": 0.0702
+    },
+    "87.0": {
+      "conteo": 17,
+      "pct_total": 0.0497
+    },
+    "88.0": {
+      "conteo": 10,
+      "pct_total": 0.0292
+    },
+    "89.0": {
+      "conteo": 10,
+      "pct_total": 0.0292
+    },
+    "90.0": {
+      "conteo": 2,
+      "pct_total": 0.0058
+    },
+    "91.0": {
+      "conteo": 4,
+      "pct_total": 0.0117
+    },
+    "92.0": {
+      "conteo": 1,
+      "pct_total": 0.0029
+    },
+    "93.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "94.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "95.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "96.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "97.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "98.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "99.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    },
+    "100.0": {
+      "conteo": 0,
+      "pct_total": 0.0
+    }
+  },
+  "ciclos_mercado": [
+    {
+      "ciclo": "Bear 2022",
+      "periodo": "2021-11-11 \u2192 2022-11-22",
+      "velas": 9025,
+      "se\u00f1ales_compra_30": 571,
+      "se\u00f1ales_venta_70": 407,
+      "frec_compra_pct": 6.3269,
+      "frec_venta_pct": 4.5097,
+      "ratio_cv": 1.4029
+    },
+    {
+      "ciclo": "Recuperaci\u00f3n 2",
+      "periodo": "2022-11-23 \u2192 2024-01-10",
+      "velas": 9912,
+      "se\u00f1ales_compra_30": 355,
+      "se\u00f1ales_venta_70": 725,
+      "frec_compra_pct": 3.5815,
+      "frec_venta_pct": 7.3144,
+      "ratio_cv": 0.4897
+    },
+    {
+      "ciclo": "Bull 2024-2025",
+      "periodo": "2024-01-11 \u2192 2026-12-31",
+      "velas": 15217,
+      "se\u00f1ales_compra_30": 770,
+      "se\u00f1ales_venta_70": 1177,
+      "frec_compra_pct": 5.0601,
+      "frec_venta_pct": 7.7348,
+      "ratio_cv": 0.6542
+    }
+  ]
+}

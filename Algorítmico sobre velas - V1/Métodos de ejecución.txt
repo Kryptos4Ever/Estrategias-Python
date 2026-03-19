@@ -1,0 +1,14 @@
+# Instalación única de dependencias
+pip install numpy pandas scipy scikit-learn matplotlib
+
+# Primer run (calcula todo — puede tardar 10–20 min por el RF y Lyapunov)
+python backtest_compuesto.py
+
+# Runs siguientes con cache (segundos, no minutos)
+python backtest_compuesto.py --fast
+
+# Solo JSON sin gráfico
+python backtest_compuesto.py --fast --nograf
+
+# Borrar cache y recalcular todo
+python backtest_compuesto.py --nocache
